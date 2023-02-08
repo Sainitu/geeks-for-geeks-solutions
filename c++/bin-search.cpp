@@ -11,7 +11,7 @@ int bin_search(int A[], int left, int right, int k)
   
         // If element is smaller than mid, then 
         // it can only be present in left subarray 
-        if (A[mid] > x) 
+        if (A[mid] > k) 
             return bin_search(A, left, mid - 1, k); 
   
         // Else the element can only be present 
